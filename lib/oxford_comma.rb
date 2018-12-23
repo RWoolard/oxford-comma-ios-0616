@@ -7,6 +7,7 @@ def oxford_comma(array)
     array.length - 2.times do
       array.join(" ")
     end
-  return array.insert(array.length - 1, "and")
+    array.insert(array.length - 1, "and")
+    return array.join 
   end
 end
